@@ -2,6 +2,7 @@ const control = document.querySelector("#font-size-control");
 console.log(control);
 
 const textEl = document.querySelector("#text");
+textEl.style.fontSise = "16px"
 
 const step = control.setAttribute("step", 1);
 
